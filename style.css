@@ -3,11 +3,13 @@
     --color-secundario:#ffffff;
     --color-acento: #FF0000;
     --color-texto: #333333;
+    --color-h1: #333333;
+    --color-h2: #B027F5;
     --color-fondo-suave: #7930A6;
     --transicion: all 0.3s ease;
 }
 * {
-    margin: 15px;
+    margin: 2px;
     padding: 0;
     box-sizing: border-box;
 }
@@ -54,5 +56,10 @@ nav ul li a:hover {
 h1{
     text-align: center;
     margin-top:2rem;
-    color: var(--color-texto);
+    color: var(--color-h1);
+}
+h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-h2);
 }
